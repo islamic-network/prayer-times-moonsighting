@@ -13,7 +13,16 @@ class Isha extends PrayerTimes
     public function __construct(DateTime $date, float $latitude, $shafaq = self::SHAFAQ_GENERAL)
     {
         parent::__construct($date, $latitude);
-        $this->shafaq = $shafaq;
+        $this->setShafaq($shafaq);
+
+
+    }
+
+    public function setShafaq(string $shafaq): void
+    {
+        if (in_array($shafaq, [self::SHAFAQ_GENERAL, self::SHAFAQ_ABYAD, self::SHAFAQ_AHMER])) {
+            $this->shafaq = $shafaq;
+        }
 
         if ($this->shafaq === self::SHAFAQ_AHMER) {
             $this->a = 62 + 17.4 / 55.0 * abs($this->latitude);
