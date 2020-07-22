@@ -14,8 +14,6 @@ class Isha extends PrayerTimes
     {
         parent::__construct($date, $latitude);
         $this->setShafaq($shafaq);
-
-
     }
 
     public function setShafaq(string $shafaq): void
