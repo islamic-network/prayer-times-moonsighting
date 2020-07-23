@@ -41,3 +41,6 @@ To run unit tests, from the root of this repository execute:
 ```php
 vendor/bin/phpunit tests/Unit/
 ```
+## Credits
+
+Syed Khalid Shaukat, who has done the research for this method of computing timings for higher latitude areas. For more information about the calculation, please visit https://www.moonsighting.com/.
