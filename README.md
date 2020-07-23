@@ -31,7 +31,7 @@ use IslamicNetwork\MoonSighting\Fajr;
 use DateTime;
 
 $date = new DateTime('24-12-2020');
-$pt = new Isha($date, 25.2119894);
+$pt = new Isha($date, 25.2119894, 'general'); // The third parameter is shafaq, acceptable values for which are 'general', 'ahmer', 'abyad'.
 $pt->getMinutesAfterSunset(); // 86 minutes
 ```
 
