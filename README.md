@@ -43,4 +43,5 @@ vendor/bin/phpunit tests/Unit/
 ```
 ## Credits
 
-Syed Khalid Shaukat, who has done the research for this method of computing timings for higher latitude areas. For more information about the calculation, please visit https://www.moonsighting.com/.
+Syed Khalid Shaukat, who has done the research for this method of computing timings for higher latitude areas. For more information about the calculation, 
+please see the Fajr and Isha booklet @ https://github.com/islamic-network/prayer-times-moonsighting/blob/master/booklet-fajr-isha.pdf and visit https://www.moonsighting.com/.
