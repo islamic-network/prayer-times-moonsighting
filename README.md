@@ -1,5 +1,6 @@
 [![Releases](https://img.shields.io/github/v/release/islamic-network/prayer-times-moonsighting)](https://github.com/islamic-network/prayer-times-moonsighting/releases)
 ![](https://img.shields.io/packagist/dt/islamic-network/prayer-times-moonsighting.svg)
+[![CircleCI](https://circleci.com/gh/islamic-network/prayer-times-moonsighting.svg?style=shield)](https://circleci.com/gh/islamic-network/prayer-times-moonsighting)
 
 # PHP Library to Calculate Fajr and Isha Timings per MoonSighting.com
 This library has been written for the AlAdhan.com API @ https://aladhan.com/prayer-times-api and is included in the main prayer times library @ https://github.com/islamic-network/prayer-times.
